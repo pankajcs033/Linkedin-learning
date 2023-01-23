@@ -1,0 +1,60 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch FizzBuzzApplication",
+            "request": "launch",
+            "mainClass": "com.example.FizzBuzz.FizzBuzzApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.oracle.App",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch RoomClrApplication",
+            "request": "launch",
+            "mainClass": "com.oracle.roomClr.RoomClrApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch RoomWebAppApplication",
+            "request": "launch",
+            "mainClass": "com.oracle.roomwebapp.RoomWebAppApplication",
+            "projectName": "room-web-app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch DemoApplication",
+            "request": "launch",
+            "mainClass": "com.oracle.demo.DemoApplication",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RoomClrApplication<roomClr>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.oracle.roomClr.RoomClrApplication",
+            "projectName": "roomClr",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=51467 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=roomClr"
+        }
+    ]
+}
